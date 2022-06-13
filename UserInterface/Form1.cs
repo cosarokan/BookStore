@@ -16,5 +16,11 @@ namespace UserInterface
         {
             InitializeComponent();
         }
+
+        private void btnTypeProcess_Click(object sender, EventArgs e)
+        {
+            FrmTypeProcess frmTypeProcess = new FrmTypeProcess();
+            frmTypeProcess.Show();
+        }
     }
 }

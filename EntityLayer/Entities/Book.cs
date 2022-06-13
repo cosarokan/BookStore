@@ -13,8 +13,16 @@ namespace EntityLayer.Entities
         public string BookName { get; set; }
 
         public string ISBN { get; set; }
-        public int BookTypeId { get; set; }
+        public byte BookTypeId { get; set; }
         public int AuthorId { get; set; }
         public int YearOfPublication { get; set; }
+        public int Page { get; set; }
+        
+
+        [ForeignKey("BookTypeId")]
+        public virtual BookType BookType { get; set; }
+
+        [ForeignKey("AuthorId")]
+        public virtual Author Author { get; set; }
     }
 }
