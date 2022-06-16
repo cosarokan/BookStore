@@ -6,5 +6,5 @@
 
 ![author-process](https://user-images.githubusercontent.com/82242098/174128228-f48ecc6f-b38d-4556-84a8-776c1f061e20.png)
 
-![capture-book](https://user-images.githubusercontent.com/82242098/174128435-7ead4b3c-38f5-423a-907e-e709895884f8.PNG)
+![Capture-book-2](https://user-images.githubusercontent.com/82242098/174130662-d7e2e00f-58d5-4748-a6ab-8cec4a3c90b9.PNG)
 
