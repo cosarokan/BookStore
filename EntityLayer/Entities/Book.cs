@@ -12,7 +12,10 @@ namespace EntityLayer.Entities
         [StringLength(100, ErrorMessage = "The book name must be a maximum of 100 characters!")]
         public string BookName { get; set; }
 
+        [Required(ErrorMessage = "ISBN must not be empty!")]
+        [StringLength(10, ErrorMessage = "ISBN must be a maximum of 10 characters!")]
         public string ISBN { get; set; }
+
         public byte BookTypeId { get; set; }
         public int AuthorId { get; set; }
         public int YearOfPublication { get; set; }
@@ -24,5 +27,6 @@ namespace EntityLayer.Entities
 
         [ForeignKey("AuthorId")]
         public virtual Author Author { get; set; }
+
     }
 }

@@ -9,7 +9,11 @@ namespace DataAccessLayer
         {
 
         }
-
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            Database.SetInitializer<MyContext>(null);
+            base.OnModelCreating(modelBuilder);
+        }
         public virtual DbSet<Book> Books { get; set; }
         public virtual DbSet<BookType> BookTypes { get; set; }
         public virtual DbSet<Author> Authors { get; set; }

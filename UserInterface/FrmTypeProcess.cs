@@ -15,6 +15,7 @@ namespace UserInterface
         private void FrmTypeProcess_Load(object sender, EventArgs e)
         {
             GetAllBookTypeToGridView();
+            SelectFullRow();
         }
         private void btnSaveBookType_Click(object sender, EventArgs e)
         {
@@ -56,6 +57,10 @@ namespace UserInterface
                 MessageBox.Show(ex.Message);
             }
             
+        }
+        void SelectFullRow()
+        {
+            dataGridViewBookType.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
     }
 }

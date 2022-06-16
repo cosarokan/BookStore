@@ -86,7 +86,7 @@
             this.Controls.Add(this.lblBookTypeName);
             this.Name = "FrmTypeProcess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmTypeProcess";
+            this.Text = "Type Process";
             this.Load += new System.EventHandler(this.FrmTypeProcess_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBookType)).EndInit();
             this.ResumeLayout(false);

@@ -35,5 +35,11 @@ namespace BusinessLogicLayer
                 throw;
             }
         }
+        public List<BookType> GetAllBookTypeName()
+        {
+            List<BookType> list = BookContext.BookTypes.ToList();
+            return list;
+        }
+       
     }
 }

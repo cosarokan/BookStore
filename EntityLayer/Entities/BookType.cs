@@ -13,5 +13,10 @@ namespace EntityLayer.Entities
 
         // örn: bilim-kurgu, romantik
         public virtual List<Book> Books { get; set; }
+
+        public override string ToString()
+        {
+            return $"{TypeName}";
+        }
     }
 }

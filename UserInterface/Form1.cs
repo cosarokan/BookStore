@@ -22,5 +22,17 @@ namespace UserInterface
             FrmTypeProcess frmTypeProcess = new FrmTypeProcess();
             frmTypeProcess.Show();
         }
+
+        private void btnBookProcess_Click(object sender, EventArgs e)
+        {
+            FrmBookProcess frmBookProcess = new FrmBookProcess();
+            frmBookProcess.Show();
+        }
+
+        private void btnAuthorProcess_Click(object sender, EventArgs e)
+        {
+            FrmAuthorProcess frmAuthorProcess = new FrmAuthorProcess();
+            frmAuthorProcess.Show();
+        }
     }
 }

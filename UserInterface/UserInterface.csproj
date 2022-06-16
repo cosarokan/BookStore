@@ -62,6 +62,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAuthorProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAuthorProcess.Designer.cs">
+      <DependentUpon>FrmAuthorProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookProcess.Designer.cs">
+      <DependentUpon>FrmBookProcess.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmTypeProcess.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +84,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAuthorProcess.resx">
+      <DependentUpon>FrmAuthorProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookProcess.resx">
+      <DependentUpon>FrmBookProcess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTypeProcess.resx">
       <DependentUpon>FrmTypeProcess.cs</DependentUpon>
@@ -103,6 +121,10 @@
     <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj">
       <Project>{3c960e4c-0749-4753-ae4e-22c5ca42b8fc}</Project>
       <Name>BusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{4B409147-C331-46F3-8CBE-1466F498044A}</Project>
+      <Name>DataAccessLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
       <Project>{f03437fe-59c9-44dc-a4c3-e25e5a34e6d7}</Project>
