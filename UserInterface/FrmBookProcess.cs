@@ -76,11 +76,12 @@ namespace UserInterface
         }
         void VisibleProcess()
         {
-          //  dataGridViewBook.Columns[1].Visible = false;
-            dataGridViewBook.Columns[8].Visible = false;
+
         }
         void ColumnVisibleProcess()
         {
+            dataGridViewBook.Columns[1].Visible = false;
+            dataGridViewBook.Columns[8].Visible = false;
             dataGridViewBook.Columns[2].Visible = false;
             dataGridViewBook.Columns[3].Visible = false;
         }
